@@ -10,6 +10,8 @@ Parent component asks children for the data they need, combine them in one query
 
     ${ProfilePic.getQuery('user')}
 
+Note: GraphQL is using ES6 template string syntax.
+
 If someone changes a child component to fetch a little more data, the parent component doesn't need to be updated.
 
 **Lifecycle**
